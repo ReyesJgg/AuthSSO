@@ -1,0 +1,11 @@
+https://identity.company.local {
+	reverse_proxy https://localhost:7001
+}
+
+https://app.company.local {
+	reverse_proxy https://localhost:7002
+}
+
+https://app2.company.local {
+	reverse_proxy https://localhost:7003
+}
